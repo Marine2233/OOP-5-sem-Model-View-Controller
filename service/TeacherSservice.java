@@ -11,7 +11,7 @@ private DataService dataService;
 private Scanner sc = new Scanner(System.in);
 
 
-public void removeFName(){
+public void modyfyFName(){
     // Scanner sc = new Scanner(System.in);
     System.out.println("Введите фамилию преподавателя: ");
     String consol = sc.nextLine();
@@ -23,7 +23,7 @@ public void removeFName(){
         }   
     }
 }
-public void removeName(){
+public void modyfyName(){
     // Scanner sc = new Scanner(System.in);
 
     System.out.println("Введите имя преподавателя: ");
@@ -36,7 +36,7 @@ public void removeName(){
         }   
     }
 }
-public void removeLastName(){
+public void modyfyLastName(){
     // Scanner sc = new Scanner(System.in);
 
     System.out.println("Введите отчество преподавателя: ");

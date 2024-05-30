@@ -23,9 +23,9 @@ public class Controller {
 
    public void remove(){
 
-    teacherSservice.removeFName();
-    teacherSservice.removeName();
-    teacherSservice.removeLastName();
+    teacherSservice.modyfyFName();
+    teacherSservice.modyfyName();
+    teacherSservice.modyfyLastName();
    }
 
    public void getStudGroup(){
