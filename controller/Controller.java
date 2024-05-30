@@ -1,5 +1,6 @@
 package controller;
 import java.util.List;
+// import java.util.Scanner;
 
 import model.Student;
 import model.Teacher;
@@ -7,16 +8,25 @@ import model.Type;
 import model.User;
 import service.DataService;
 import service.StudentGroupService;
+import service.TeacherSservice;
 import view.StudentView;
 /*— Создать метод в Контроллере, в котором агрегируются функции
  получения списка студентов (их id) и преподавателя (его id)
  и формирования учебной группы, путём вызова метода из сервиса; */
 
 public class Controller {
-
+    // private Scanner sc;
    private StudentView sw = new StudentView();
    private DataService dataService = new DataService();
    private StudentGroupService service = new StudentGroupService();
+   private TeacherSservice teacherSservice = new TeacherSservice();
+
+   public void remove(){
+
+    teacherSservice.removeFName();
+    teacherSservice.removeName();
+    teacherSservice.removeLastName();
+   }
 
    public void getStudGroup(){
     

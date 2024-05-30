@@ -24,4 +24,13 @@ public abstract class User {
     public String toString() {
         return "User [fName=" + fName + ", name=" + name + ", lastName=" + lastName + "]";
     }
+    public void setfName(String fName) {
+        this.fName = fName;
+    }
+    public void setName(String name) {
+        this.name = name;
+    }
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
 }
