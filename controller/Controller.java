@@ -21,7 +21,7 @@ public class Controller {
    private StudentGroupService service = new StudentGroupService();
    private TeacherSservice teacherSservice = new TeacherSservice();
 
-   public void remove(){
+   public void modyfy(){
 
     teacherSservice.modyfyFName();
     teacherSservice.modyfyName();

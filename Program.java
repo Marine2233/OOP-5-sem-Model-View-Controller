@@ -10,7 +10,7 @@ public class Program {public static void main(String[] args) {
     controller.creatTeacher("Пахоменко", "Елена", "Алексеевна");
     controller.getStudGroup();
     // controller.printStudents();
-    controller.remove();
+    // controller.modyfy();
    
     
     // System.out.println("fghj");
