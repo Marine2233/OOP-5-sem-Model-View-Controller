@@ -8,9 +8,11 @@ public class Program {public static void main(String[] args) {
     controller.createStudent(" Ofd", "Okg", "KtR");
 
     controller.creatTeacher("Пахоменко", "Елена", "Алексеевна");
-    controller.getStudGroup();
+
+    // controller.getStudGroup();
+
     // controller.printStudents();
-    // controller.modyfy();
+    controller.modyfy();
    
     
     // System.out.println("fghj");
